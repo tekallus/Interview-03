@@ -1,0 +1,117 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Renk Paleti */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  color: #444;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tipografi */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+/* Butonlar */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.secondary-button {
+  background-color: #fff;
+  color: #444;
+}
+
+/* Listeler */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Genişletilebilir Öğeler */
+.expandable-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.expandable-item-header {
+  cursor: pointer;
+}
+
+.expandable-item-header:hover {
+  background-color: #f5f5f5;
+}
+
+.expandable-item-content {
+  display: none;
+}
+
+.expanded .expandable-item-content {
+  display: block;
+}
+
+/* Ek Tavsiyeler */
+@media (max-width: 768px) {
+  /* Küçük ekranlar için özel stiller */
+}

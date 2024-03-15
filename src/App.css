@@ -1,0 +1,38 @@
+/* App.css */
+
+.generate-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .generate-button:hover {
+    background-color: #45a049;
+  }
+  
+  .expandable-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .expandable-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .expandable-item-details {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
